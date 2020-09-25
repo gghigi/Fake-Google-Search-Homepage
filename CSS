@@ -1,0 +1,114 @@
+/* Fake Google Homepage CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+#container {
+  margin: 40px auto 0;
+  width: 480px;
+  height: 460px;
+  text-align: center;
+}
+
+input[type="search"] {
+  width: 460px;
+  height: 45px;
+  padding: 5px;
+  margin: 0 0 29px;
+  border: solid 1px #ccc;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+input[type="search"]:hover {
+  border-color: #aaa;
+  border: solid 2px #ddd;
+}
+
+input[type="submit"] {
+  background: #f2f2f2;
+  padding: 6px 20px;
+  border-radius: 4px;
+  box-shadow: none;
+  line-height: 27px;
+  border: none 1px #ccc;
+  margin: 0 5px 30px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+small {
+  display: inline;
+  margin: 10px 0 0 0;
+  font-size: 13px;
+}
+
+a:link,
+a:visited {
+  color: blue;
+}
+
+nav#header {
+  text-align: right;
+  padding: 20px;
+}
+
+nav#header ul li {
+  display: inline;
+}
+
+nav#header ul li a:link,
+nav#header ul li a:visited {
+  color: #000;
+  text-decoration: none;
+  padding: 8px;
+}
+
+footer nav ul li a:link,
+footer nav ul li a:visited {
+  color: #555;
+  text-decoration: none;
+  padding: 8px;
+}
+
+nav#header ul li a:hover,
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #eee;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer nav {
+  padding: 20px;
+}
+
+footer nav ul li {
+  display: inline;
+}
+
+footer nav ul {
+  float: left;
+}
+
+footer nav ul.right-links {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
